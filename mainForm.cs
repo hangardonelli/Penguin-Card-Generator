@@ -165,16 +165,6 @@ namespace PenguinCardGenerator
             };
 
 
-       
-            /*string[] files = { @"C:\CPPS\CPPS\WWW\media\avatar\paper\600\1.png", //color
-                @"C:\CPPS\CPPS\WWW\media\avatar\paper\600\1029.png", //head
-                @"C:\CPPS\CPPS\WWW\media\avatar\paper\600\101.png", //face
-                @"C:\CPPS\CPPS\WWW\media\avatar\paper\600\204.png", //body
-                @"C:\CPPS\CPPS\WWW\media\avatar\paper\600\172.png", //neck
-                @"C:\CPPS\CPPS\WWW\media\avatar\paper\600\336.png", //hand
-                @"C:\CPPS\CPPS\WWW\media\avatar\paper\600\357.png", //feet
-            };
-            */
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
             pictureBox1.BackgroundImage = CombineBitmap(files);
