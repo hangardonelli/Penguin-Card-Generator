@@ -94,25 +94,7 @@ namespace PenguinCardGenerator
             patchSelector.Description = "Select the paper/600 folder of png paper items";
             
             string root = Properties.Settings.Default.local600Location;
-         /*   if (Directory.Exists(root)){
-                patchSelector.SelectedPath = root;
-                if (!(
-                    
-                    File.Exists(root + @"\1.png") &&
-                    is600x600Image(root + @"\1.png") &&
-                    Directory.GetFiles(root).Length > 100
-                    
-                    ))
-                    
 
-                {
-                    MessageBox.Show("Invalid paper/600 folder", "Invalid folder");
-                    return;
-                }
-
-
-
-            }*/
 
 
             DialogResult result = patchSelector.ShowDialog();
